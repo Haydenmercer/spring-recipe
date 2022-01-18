@@ -1,2 +1,6 @@
-package come.hayden.recipe.controllers;public class IndexController {
+package come.hayden.recipe.controllers;
+
+public class IndexController {
+
+
 }
