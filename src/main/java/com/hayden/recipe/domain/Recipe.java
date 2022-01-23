@@ -31,7 +31,7 @@ public class Recipe {
     @Lob
     private Byte[] image;
 
-    @OneToOne(cascade = CascadeType.ALL) //Deletes notes if recipe is deleted. Bidirectional relationship.
+    @OneToOne(cascade = CascadeType.ALL) //Deletes notes if recipe is deleted. Bidirectional relationship. TEST.
     private Note notes;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe") //Why not ManyToMany?
